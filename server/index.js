@@ -10,6 +10,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { register } from "./controllers/auth.js";
 import authRoutes from './routes/auth.js'
+import userRoutes from "./routes/users.js";
 
 // Configurations
 const __filename = fileURLToPath(import.meta.url);
@@ -43,6 +44,7 @@ app.post("/auth/register", upload.single("picture"), register);
 
 // Load Routes
 app.use('/auth', authRoutes)
+app.use("/users", userRoutes);
 
 // Database Setup
 const PORT = process.env.PORT || '8000'
