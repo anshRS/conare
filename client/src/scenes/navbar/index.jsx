@@ -3,7 +3,7 @@ import {
     Box, IconButton, InputBase, Typography, Select, MenuItem, FormControl, useTheme, useMediaQuery,
 } from "@mui/material";
 import {
-    Search, Message, DarkMode, LightMode, Notifications, Help, Menu, Close,
+    Search, Message, DarkMode, LightMode, Notifications, Menu, Close, PeopleRounded
 } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
 import { setMode, setLogout } from "state";
@@ -85,7 +85,7 @@ const Navbar = () => {
                             cursor: "pointer",
                         },
                     }} />
-                    <Help sx={{
+                    <PeopleRounded sx={{
                         fontSize: "25px",
                         "&:hover": {
                             color: theme.palette.primary.main,
@@ -177,7 +177,7 @@ const Navbar = () => {
                                 cursor: "pointer",
                             },
                         }} />
-                        <Help sx={{
+                        <PeopleRounded sx={{
                             fontSize: "25px",
                             "&:hover": {
                                 color: theme.palette.primary.main,
