@@ -18,5 +18,10 @@ This project offers a dynamic and user-centric experience. Discover a seamless b
 * `EXPRESS JS`
 * `MONGO DB`
 
+## Watch it!
+Demo video showing the working of the website. Navigating through different sections:
+
+https://github.com/anshRS/conare/assets/114407607/679806d7-752b-4772-83ad-1540ec9f4386
+
 ## Known issues 
 Work in progress! Working to optimize the website and adding more functionalities 😍 
